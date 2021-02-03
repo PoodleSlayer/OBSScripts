@@ -4,11 +4,17 @@ This script allows you to easily mark timestamps within your stream, but rather 
 
 ## Setup
 
+### OBS Setup
+
+**Important:** make sure that you have done the [necessary setup for OBS](../../README.md) in order to use scripts. This is just installing the correct Python version and pointing OBS at the location, so nothing too crazy!
+
 ### File Path
 Import the script into OBS Studio's Scripts manager. Before first-time use you **must** specify a folder in which to save the timestamp files. Currently this is written with Windows-style file system paths but ideally in the future I'll test this on all platforms that OBS supports. 
 
+![file path](imgs/pstimestamp_1.png)
+
 ### Hotkey
-In your OBS hotkey settings (File -> Settings -> Hotkeys) look for the entry labeled `PSTimestamp`, probably near the bottom (I used a namespace to avoid the many other possible timestamp scripts that are out there). Specify the hotkey(s) of your liking and hit Apply and then Ok. **Note:** any time you reload your scripts you will need to re-specify hotkeys. I'm not sure if there is a way around this but I noticed this during my testing.
+In your OBS hotkey settings (File -> Settings -> Hotkeys) look for the entry labeled `PSTimestamp`, probably near the bottom (I used a namespace to avoid the many other possible timestamp scripts that are out there). Specify the hotkey(s) of your liking and hit "Apply" and then "Ok". **Note:** any time you reload your scripts you will need to re-specify hotkeys. I'm not sure if there is a way around this but I noticed this during my testing.
 
 ## Using the Script
 
